@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+h1 {
+  color: #2f4f4f;
+  margin-bottom: 10px;
+}
+#main-nav {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+#main-nav li {
+  display: inline-block;
+}
+#main-nav li a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+}
+.featured {
+  background-color: orange !important;
+  padding: 5px;
+  border-radius: 2px;
+  /* x,y表示阴影向右偏移10 向下偏移2 */
+  box-shadow: 10px 2px #6f9090;
+}
+.footer {
+  color: #666;
+  background-color: #ccc;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
+.footer a {
+  /* inherit从父元素继承文字颜色 */
+  color: inherit;
+  text-decoration: underline;
+}
